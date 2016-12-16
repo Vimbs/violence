@@ -17,6 +17,7 @@ class CreateProductsTable extends Migration
           $table->string('product_id')->index();
           $table->string('product_name')->string();
           $table->double('product_price');
+          
       });
     }
 
